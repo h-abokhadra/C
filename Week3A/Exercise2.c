@@ -11,6 +11,9 @@ int main(int argc, char** argv)
 	scanf("%d", &n);
 	
 	printf("\n The number that was entered is : %d", *p); // *(&n) same results
+	printf("\n The number that was entered is : %d", &n);
+	printf("\n The number that was entered is : %d", *(&n));
+	printf("\n The number that was entered is : %d", p);
 
 		
 }
