@@ -1,5 +1,4 @@
 // C program to find the length of a string
-
 #include<stdio.h> 
 
 int main(int argc, char** argv)
@@ -14,5 +13,4 @@ int main(int argc, char** argv)
 		i++;
 		length = i;
 		printf("\n The length of the string is : %d", length);
-
 }
