@@ -1,5 +1,4 @@
 // WAP to copy the elements of one array into another array.
-
 #include <stdio.h>
 
 int main(int argc, char** argv)
@@ -22,14 +21,12 @@ int main(int argc, char** argv)
     {
         arr2[i] = arr1[i];
     }
-
     /* Prints the elements of first array   */
     printf("\nThe elements stored in the first array are :\n");
     for(i=0; i<n; i++)
     {
         printf("\t %d", arr1[i]);
     }
-
     /* Prints the elements copied into the second array. */
     printf("\n\nThe elements copied into the second array are :\n");
     for(i=0; i<n; i++)
