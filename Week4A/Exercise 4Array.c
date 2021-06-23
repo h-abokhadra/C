@@ -1,5 +1,4 @@
 // WAP to print the position of the smallest number of n numbers using arrays.
-
 #include <stdio.h>
 
 int main(int argc, char** argv)
