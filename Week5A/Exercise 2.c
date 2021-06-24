@@ -1,5 +1,4 @@
 // Program using structures to find the largest of three numbers
-
 #include <stdio.h>
 int main(int argc, char** argv)
 {
@@ -9,7 +8,6 @@ int main(int argc, char** argv)
 		int largest;
 	};
 struct numbers num;
-
 printf ("Enter the three numbers:");
 scanf("%d %d %d", &num.a, &num.b,&num.c);
 	if (num.a>num.b && num.a>num.b)
